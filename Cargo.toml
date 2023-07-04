@@ -1,5 +1,4 @@
 [workspace]
 members=[
-    "hw1",
-    "hw2",
+    "hw2/(HW2)task1,2"
 ]
