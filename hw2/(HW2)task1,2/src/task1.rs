@@ -20,7 +20,7 @@ fn find_term(search_term: &str, quote: &str) -> String {
     let lines: Vec<&str> = quote.split('\n').collect();
     for (index, line) in lines.iter().enumerate() {
         if line.contains(search_term) {
-            return format!("{}| {}", index + 1, line.trim());
+            return format!("{}: {}", index + 1, line.trim());
         }
     }
     String::from("Word not found")
