@@ -23,7 +23,7 @@ fn find_term(search_term: &str, quote: &str) -> String {
             return format!("{}| {}", index + 1, line.trim());
         }
     }
-    String::from("Не найдено нужное слово")
+    String::from("Word not found")
 }   
 
 
